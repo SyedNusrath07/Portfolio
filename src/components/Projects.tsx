@@ -6,7 +6,7 @@ const Projects = () => {
     {
       id: 1,
       title: 'GSMS/FreshMart',
-      description: 'I built a responsive shopping cart system with real-time updates, detailed order summary, and a seamless self-collection checkout. It includes an admin dashboard for managing products, tracking orders, and monitoring revenue.',
+      description: 'Final Year Project – Responsive Shopping Cart System\nI developed a fully responsive shopping cart system as my final year project. It features real-time cart updates, a detailed order summary, and a seamless self-collection checkout experience. The system also includes a powerful admin dashboard to manage products, track orders, and monitor overall revenue efficiently.',
       image: '/GSMS.png',
       tags: ['React', 'Tailwind CSS', 'JavaScript', 'Responsive'],
       liveUrl: 'https://gsms-fresh-mart.vercel.app/',
@@ -26,9 +26,9 @@ const Projects = () => {
     {
       id: 3,
       title: 'Portfolio',
-      description: 'personal portfolio',
+      description: 'I have created a responsive portfolio website that highlights my skills, education, projects, and contact information. The site offers smooth navigation, animated skill bars, detailed project showcases with live demos and code links, and an integrated contact form. It provides a clean, professional, and user-friendly experience that effectively presents my background and work.',
       image: '/portfolio.png',
-      tags: ['JavaScript', 'API Integration', 'CSS3', 'HTML5'],
+      tags: ['React', 'TypeScript', 'Tailwind CSS', 'EmailJS'],
       liveUrl: 'https://example.com/project3',
       githubUrl: '#',
       date: '2025'

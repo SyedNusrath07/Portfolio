@@ -1,5 +1,5 @@
 import React from 'react';
-import { Download, Eye } from 'lucide-react';
+import { Download, Eye, Github, Linkedin } from 'lucide-react';
 
 const Hero = () => {
   const scrollToSection = (href: string) => {
@@ -54,6 +54,27 @@ const Hero = () => {
                 <Download size={20} />
                 Download Resume
               </button>
+            </div>
+
+            <div className="mt-6 flex space-x-4 justify-center lg:justify-start">
+              <a
+                href="https://github.com/SyedNusrath07"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-3 bg-slate-900 text-gray-400 hover:text-cyan-400 hover:bg-slate-700 rounded-lg transition-all duration-200 transform hover:scale-110"
+                aria-label="GitHub"
+              >
+                <Github className="w-6 h-6" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/syed-nusrath-hussaine"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-3 bg-slate-900 text-gray-400 hover:text-cyan-400 hover:bg-slate-700 rounded-lg transition-all duration-200 transform hover:scale-110"
+                aria-label="LinkedIn"
+              >
+                <Linkedin className="w-6 h-6" />
+              </a>
             </div>
           </div>
 
