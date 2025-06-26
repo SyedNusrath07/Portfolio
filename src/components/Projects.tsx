@@ -29,7 +29,7 @@ const Projects = () => {
       description: 'I have created a responsive portfolio website that highlights my skills, education, projects, and contact information. The site offers smooth navigation, animated skill bars, detailed project showcases with live demos and code links, and an integrated contact form. It provides a clean, professional, and user-friendly experience that effectively presents my background and work.',
       image: '/portfolio.png',
       tags: ['React', 'TypeScript', 'Tailwind CSS', 'EmailJS'],
-      liveUrl: 'https://example.com/project3',
+      liveUrl: 'https://syed-nusrath-portfolio.netlify.app/',
       githubUrl: '#',
       date: '2025'
     }
