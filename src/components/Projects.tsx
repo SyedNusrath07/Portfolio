@@ -8,7 +8,7 @@ const Projects = () => {
       title: 'GSMS/FreshMart',
       description: 'Final Year Project – Responsive Shopping Cart System\nI developed a fully responsive shopping cart system as my final year project. It features real-time cart updates, a detailed order summary, and a seamless self-collection checkout experience. The system also includes a powerful admin dashboard to manage products, track orders, and monitor overall revenue efficiently.',
       image: '/GSMS.png',
-      tags: ['React', 'Tailwind CSS', 'JavaScript', 'Responsive'],
+      tags: ['React', 'TypeScript', 'Tailwind CSS', 'ESLint'],
       liveUrl: 'https://gsms-fresh-mart.vercel.app/',
       githubUrl: 'https://github.com/SyedNusrath07/GSMS-FreshMart.git',
       date: '2025'
@@ -18,7 +18,7 @@ const Projects = () => {
       title: 'birdflight',
       description: 'I built a casual bird flying tap game with smooth controls, seasonal themes, real-time scoring, and fun obstacles. Players can unlock and switch bird skins, power-ups, and trails through a coin shop. I also added user achievements and level-based rewards to enhance engagement.',
       image: '/birdflight.png',
-      tags: ['HTML', 'CSS', 'JavaScript', 'Local Storage'],
+      tags: ['React', 'React Native', 'Expo', 'Expo Router', 'TypeScript'],
       liveUrl: 'https://birdflight.netlify.app/',
       githubUrl: 'https://github.com/SyedNusrath07/birdflight.git',
       date: '2025'
