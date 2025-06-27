@@ -92,12 +92,12 @@ const Contact = () => {
             <div className="space-y-6 mb-8">
               {contactInfo.map((item, index) => (
                 <a
-                  key={index}
-                  href={item.title === 'Email' ? 'https://mail.google.com/mail/?view=cm&fs=1&to=syednusrath2604@gmail.com' : item.link}
-                  target={item.title === 'Email' ? '_blank' : undefined}
-                  rel={item.title === 'Email' ? 'noopener noreferrer' : undefined}
-                  className="flex items-center p-4 bg-slate-900 rounded-lg hover:bg-slate-700 transition-colors duration-200 group"
-                >
+                 key={index}
+                 href={item.title === 'Email' ? 'https://mail.google.com/mail/?view=cm&fs=1&to=syednusrath2604@gmail.com' : item.link}
+                 target={item.title === 'Email' ? '_blank' : undefined}
+                 rel={item.title === 'Email' ? 'noopener noreferrer' : undefined}
+                 className="flex items-center p-4 bg-slate-900 rounded-lg hover:bg-slate-700 transition-colors duration-200 group"
+                 >
                   <div className="text-cyan-400 mr-4 group-hover:scale-110 transition-transform duration-200">
                     {item.icon}
                   </div>

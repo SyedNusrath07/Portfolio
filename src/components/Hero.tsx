@@ -82,11 +82,12 @@ const Hero = () => {
           <div className="lg:w-1/2 flex justify-center">
             <div className="relative">
                 <div className="w-80 h-80 md:w-96 md:h-96 rounded-full bg-gradient-to-br from-cyan-500 to-cyan-600 p-0.5 animate-float-smooth">
-                <img
-                  src="/syed.png"
-                  alt="Syed Nusrath Hussaine"
-                  className="w-full h-full rounded-full object-cover"
-                />
+<img
+  src="/syed.png"
+  alt="Syed Nusrath Hussaine"
+  loading="lazy"
+  className="w-full h-full rounded-full object-cover"
+/>
               </div>
             </div>
           </div>

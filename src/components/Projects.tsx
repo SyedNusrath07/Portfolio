@@ -30,7 +30,7 @@ const Projects = () => {
       image: '/portfolio.png',
       tags: ['React', 'TypeScript', 'Tailwind CSS', 'EmailJS'],
       liveUrl: 'https://syed-nusrath-portfolio.netlify.app/',
-      githubUrl: '#',
+      githubUrl: 'https://github.com/SyedNusrath07/Portfolio.git',
       date: '2025'
     }
   ];
@@ -55,11 +55,12 @@ const Projects = () => {
               className="bg-slate-900 rounded-xl overflow-hidden hover:transform hover:scale-105 transition-all duration-300 group shadow-lg hover:shadow-2xl"
             >
               <div className="relative overflow-hidden">
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-110"
-                />
+<img
+  src={project.image}
+  alt={project.title}
+  loading="lazy"
+  className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-110"
+/>
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </div>
 
