@@ -9,8 +9,8 @@ const Hero = () => {
 
   const downloadResume = () => {
     const link = document.createElement('a');
-    link.href = '/Syed Nusrath Resume.pdf';
-    link.download = 'Syed_Nusrath_Resume.pdf';
+    link.href = '/syed-nusrath-resume.pdf';
+    link.download = 'syed-nusrath-resume.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
