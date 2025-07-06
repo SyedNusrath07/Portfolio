@@ -25,12 +25,12 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: 'Portfolio',
-      description: 'I have created a responsive portfolio website that highlights my skills, education, projects, and contact information. The site offers smooth navigation, animated skill bars, detailed project showcases with live demos and code links, and an integrated contact form. It provides a clean, professional, and user-friendly experience that effectively presents my background and work.',
-      image: '/portfolio.png',
-      tags: ['React', 'TypeScript', 'Tailwind CSS', 'EmailJS'],
-      liveUrl: 'https://syed-nusrath-portfolio.netlify.app/',
-      githubUrl: 'https://github.com/SyedNusrath07/Portfolio.git',
+      title: 'Dr. AI',
+      description: 'I built Dr. AI, a professional AI-powered medical symptom analysis tool that lets users input symptoms via text or voice and upload images for visual analysis. Using Gemini API, it provides reliable condition assessments and urgency recommendations. The app features a responsive design, accessibility for all users, and clear emergency guidance, delivering a user-friendly and trustworthy medical insight experience.',
+      image: '/Dr.AI.png',
+      tags: ['React', 'Gemini API', 'TypeScript', 'Tailwind CSS'],
+      liveUrl: 'https://dr-ai-syeds-projects-67bfc3ee.vercel.app/',
+      githubUrl: 'https://github.com/SyedNusrath07/Dr.Ai.git',
       date: '2025'
     }
   ];
